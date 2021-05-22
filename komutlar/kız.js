@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const db = require("quick.db")
+const db = require("quick.db");
 exports.run = async (client, message, args) => {
  if (!message.member.roles.cache.has("YETKİLİ İD") && !message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(new Discord.MessageEmbed().setDescription('Bu komutu kullanabilmek için gerekli yetkiye sahip değilsin!').setColor("Black"));
   let kullanıcı = message.mentions.users.first()
