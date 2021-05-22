@@ -148,7 +148,7 @@ await kanal.send(`${member} **Sunucumuza Hoş Geldin!**
 }); 
  
 
-//OTO ROL
+//OTO ROLl
 
 client.on("guildMemberAdd", member => {
 let botrolü = 'BOT ROL İD' 
